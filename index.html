@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fullpage</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/fullpage.min.css">
 </head>
 <body>
-    딜리버리구스
+
+    <div id="fullpage">
+        <div class="section s1">
+            <h1>section 1</h1>
+        </div>
+        <div class="section s2">
+            <h1>section 2</h1>
+        </div>
+        <div class="section s3">
+            <h1>section 3</h1>
+        </div>
+    </div>
+    <script src="./js/fullpage.min.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            menu: '#menu',
+            autoScrolling: true,
+            navigation: true,
+            slidesNavigation: true,
+            slideNavPosition: 'bottom'
+        })
+    </script>
 </body>
 </html>

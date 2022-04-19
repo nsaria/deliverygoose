@@ -1,0 +1,31 @@
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+
+.s1 {
+    background: url('../image/img_one.jpg');
+    background-size: cover;
+}
+
+.s2 {
+    background: url('../image/img_two.jpg');
+    background-size: cover;
+}
+
+.s3 {
+    background: url('../image/img_three.jpg');
+    background-size: cover;
+}
+
+.s2 h1 {
+    text-align: left;
+    padding-left: 2em;
+}
+
+span {
+    background: white !important;
+}
