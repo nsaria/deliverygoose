@@ -12,23 +12,63 @@
 
     <div id="fullpage">
         <div class="section s1">
-            <h1>section 1</h1>
+            <!-- <h1>section 1</h1> -->
+
+            <div class="slide">
+                <h1>The first slide</h1>
+            </div>
+            <div class="slide">
+                <h1>The second slide</h1>
+            </div>
+            <div class="slide">
+                <h1>The third slide</h1>
+            </div>
         </div>
         <div class="section s2">
             <h1>section 2</h1>
         </div>
         <div class="section s3">
             <h1>section 3</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
+            <h1>section 2</h1>
         </div>
     </div>
     <script src="./js/fullpage.min.js"></script>
     <script>
         new fullpage('#fullpage', {
-            menu: '#menu',
             autoScrolling: true,
             navigation: true,
-            slidesNavigation: true,
-            slideNavPosition: 'bottom'
+            anchors: ['section1', 'section2', 'section3'],
+            navigationTooltips: ['section1', 'section2', 'section3'],
+            showActiveTooltip: true,
+            scrollingSpeed: 1000,
+
+            // Slide Option
+            controlArrows: false,
+            slidesNavigation: true
         })
     </script>
 </body>

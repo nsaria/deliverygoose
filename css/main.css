@@ -8,16 +8,19 @@ h1 {
 
 .s1 {
     background: url('../image/img_one.jpg');
+    background-position: center center;
     background-size: cover;
 }
 
 .s2 {
     background: url('../image/img_two.jpg');
+    background-position: center center;
     background-size: cover;
 }
 
 .s3 {
     background: url('../image/img_three.jpg');
+    background-position: center center;
     background-size: cover;
 }
 
@@ -28,4 +31,10 @@ h1 {
 
 span {
     background: white !important;
+}
+
+#fp-nav ul, .fp-slidesNav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
