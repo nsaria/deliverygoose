@@ -6,28 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fullpage</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/fullpage.min.css">
+    <link rel="stylesheet" href="./css/fullpage_dg.css">
     <link href="https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
 </head>
 <body>
+        
+    <header>
+        <nav class="navbar">
+            <div class="navbar__contents">
+                <div class="navbar__logo">
+                    <a href="http://deliverygoose.co.kr"><img src="./image/simbol/deliveryGoose_logo_white.png" alt="deliverygoose_logo"> </a>
+                </div>
+                <ul class="navbar__menu">
+                    <li><a href="#">딜리버리구스</a></li>
+                    <li><a href="#">서비스지역</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">서비스신청</a></li>
+                </ul>
+                <a href="" class="navbar__toggleBtn">-<i class="fas fa-bars"></i></a>
+            </div>
+        </nav>
+    </header>
+
     <!-- fullpage -->
     <div id="fullpage">
-        
-        <!-- gnb -->
-        <nav class="navbar">
-            <div class="navbar__logo">
-                <i class="fab fa-apple"></i>
-                <a href="http://deliverygoose.co.kr">딜리버리구스</a>
-            </div>
-            <ul class="navbar__menu">
-                <li><a href="#">딜리버리구스</a></li>
-                <li><a href="#">서비스지역</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">서비스신청</a></li>
-            </ul>
-            <a href="" class="navbar__toggleBtn">-<i class="fas fa-bars"></i></a>
-        </nav>
-
         <!-- section -->
         <div class="section s1">
             <h2 class="pleft-h2">무인매장 관리,</h2>
@@ -52,12 +54,14 @@
             <h1 class="pleft-h1">다 해주는 무인매장 통합관리</h1>
         </div>
         <dic class="section fp-auto-height footer">
-            <p>주식회사엔에스아리아 | 대표이사 : 최진표&nbsp;&nbsp;서울특별시 동작구 여의대방로 112&nbsp;&nbsp;사업자등록번호 : 366-87-00916 (사업자번호조회)</p>
-            <p>통신판매업신고번호 : 제2017-서울동작-0861호&nbsp;&nbsp;개인정보책임자 : 이호상&nbsp;&nbsp;이메일 : help@nsaria.co.kr&nbsp;&nbsp;팩스 : 02-820-8449</p>
-            <p>copyright 2021 nsaria.co.kr. All rights reserved.</p>
+            <div class="footer__contents">
+                <p>주식회사엔에스아리아 | 대표이사 : 최진표&nbsp;&nbsp;서울특별시 동작구 여의대방로 112&nbsp;&nbsp;사업자등록번호 : 366-87-00916 (사업자번호조회)</p>
+                <p>통신판매업신고번호 : 제2017-서울동작-0861호&nbsp;&nbsp;개인정보책임자 : 이호상&nbsp;&nbsp;이메일 : help@nsaria.co.kr&nbsp;&nbsp;팩스 : 02-820-8449</p>
+                <p>copyright 2021 nsaria.co.kr. All rights reserved.</p>
+            </div>
         </dic>
     </div>
-    <script src="./js/fullpage.min.js"></script>
+    <script src="./js/fullpage_dg.js"></script>
     <script>
         new fullpage('#fullpage', {
             autoScrolling: true,
