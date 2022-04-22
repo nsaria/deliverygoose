@@ -160,8 +160,7 @@ span {
 .navbar__toggleBtn {
     display: none;
     position: absolute;
-    right: 32px;
-    font-size: 24px;
+    right: 5%;
 }
 
 /* hambuger menu button */
@@ -171,6 +170,10 @@ span {
     cursor: pointer;
     display: none;
     padding: 0;
+  }
+  .menu svg {
+      width: 50px;
+      height: auto;
   }
   .line {
     fill: none;
