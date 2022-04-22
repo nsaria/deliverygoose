@@ -57,6 +57,21 @@ h2 {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .pleft-h1 {
+        padding-left: 0.8em;;
+    }
+    .pleft-h2 {
+        padding-left: 1.5em;
+    }
+}
+
 span {
     background: white !important;
 }
