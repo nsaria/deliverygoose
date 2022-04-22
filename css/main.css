@@ -2,29 +2,59 @@ h1 {
     text-align: center;
     color: white;
     font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .s1 {
-    background: url('../image/img_one.jpg');
+    background: url('../image/background/bg_01.jpg');
     background-position: center center;
     background-size: cover;
 }
 
 .s2 {
-    background: url('../image/img_two.jpg');
+    background: url('../image/background/bg_02.jpg');
     background-position: center center;
     background-size: cover;
 }
 
 .s3 {
-    background: url('../image/img_three.jpg');
+    background: url('../image/background/bg_03.jpg');
     background-position: center center;
     background-size: cover;
 }
 
-.s2 h1 {
+.pleft-h1 {
     text-align: left;
     padding-left: 2em;
+}
+
+.pleft-h2 {
+    text-align: left;
+    padding-left: 3.3em;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    .pleft-h1 {
+        padding-left: 0.5em;;
+    }
+    .pleft-h2 {
+        padding-left: 1em;
+    }
 }
 
 span {
@@ -54,16 +84,20 @@ a {
     text-decoration: none;
     color: black;
 }
+#fullpage {
+    z-index: 1;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: beige;
     padding: 8px 12px;
-    position: sticky;
     z-index: 100;
-    top: -16px;
-    padding-top: 16px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .navbar__logo {

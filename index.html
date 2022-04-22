@@ -9,30 +9,34 @@
     <link rel="stylesheet" href="./css/fullpage.min.css">
 </head>
 <body>
-    <!-- gnb -->
-    <nav class="navbar">
-        <div class="navbar__logo">
-            <i class="fab fa-apple"></i>
-            <a href="#">딜리버리구스</a>
-        </div>
-        <ul class="navbar__menu">
-            <li><a href="#">홈</a></li>
-            <li><a href="#">핫딜</a></li>
-            <li><a href="#">포럼</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">채용</a></li>
-        </ul>
-        <a href="" class="navbar__toggleBtn">123<i class="fas fa-bars"></i></a>
-    </nav>
-
     <!-- fullpage -->
     <div id="fullpage">
+        
+        <!-- gnb -->
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <i class="fab fa-apple"></i>
+                <a href="http://deliverygoose.co.kr">딜리버리구스</a>
+            </div>
+            <ul class="navbar__menu">
+                <li><a href="#">딜리버리구스</a></li>
+                <li><a href="#">서비스지역</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">서비스신청</a></li>
+            </ul>
+            <a href="" class="navbar__toggleBtn">-<i class="fas fa-bars"></i></a>
+        </nav>
+
         <!-- section -->
         <div class="section s1">
-            <h1> coming soon</h1>
+            <h2 class="pleft-h2">무인매장 관리,</h2>
+            <h1 class="pleft-h1">혼자 버겁진 않으세요?</h1>
         </div>
         <div class="section s2">
-            <div class="slide">
+            <h2 class="pleft-h2">끝나지 않은 일과,</h2>
+            <h2 class="pleft-h2">정리해야 할 상품들...</h2><br><br>
+            <h1 class="pleft-h1">조금은 지치고 있지 않나요?</h1>
+            <!-- <div class="slide">
                 <h1>section 2 - The first slide</h1>
             </div>
             <div class="slide">
@@ -40,13 +44,11 @@
             </div>
             <div class="slide">
                 <h1>section 2 - The third slide</h1>
-            </div>
+            </div> -->
         </div>
         <div class="section s3">
-            <h1>section 3</h1>
-            <h1>section 3</h1>
-            <h1>section 3</h1>
-            <h1>section 3</h1>
+            <h2 class="pleft-h2">전문가의 축적된 데이터와 노하우를 바탕으로</h2>
+            <h1 class="pleft-h1">다 해주는 무인매장 통합관리</h1>
         </div>
         <dic class="section fp-auto-height footer">
             <p>주식회사엔에스아리아 | 대표이사 : 최진표&nbsp;&nbsp;서울특별시 동작구 여의대방로 112&nbsp;&nbsp;사업자등록번호 : 366-87-00916 (사업자번호조회)</p>
@@ -61,7 +63,7 @@
             navigation: true,
             anchors: ['section1', 'section2', 'section3', 'footer'],
             navigationTooltips: ['section1', 'section2', 'section3', 'footer'],
-            showActiveTooltip: true,
+            showActiveTooltip: false,
             scrollingSpeed: 1000,
 
             // Slide Option
