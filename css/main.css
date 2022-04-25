@@ -127,26 +127,33 @@ span {
     align-items: center;
     background-color: rgba(255, 255, 255, 0);
     padding: 8px 12px;
-    width: 100%;
+    width: auto;
+}
+
+.navbar .navbar__contents2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .navbar__logo img {
     height: 3.4em;
 }
 
-.navbar__menu {
+.navbar__menu2 {
     display: flex;
     list-style: none;
     padding-left: 0;
 }
 
-.navbar__menu li {
+.navbar__menu2 li {
     font-size: 1.2em;
     padding: 8px 12px;
 }
 
 
-.navbar__menu li a {
+.navbar__menu2 li a {
     text-decoration: none;
     color: white;
 }
@@ -227,7 +234,21 @@ span {
         align-items: center;
         width: 100%;
     }
-    .navbar__menu li {
+
+    .navbar__contents2 {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar__menu2 {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar__menu li,
+    .navbar__menu2 li {
         width: 100%;
         text-align: center;
     }
@@ -239,7 +260,8 @@ span {
     .navbar__toggleBtn {
         display: block;
     }
-    .navbar__menu.active {
+    .navbar__menu.active,
+    .navbar__menu2.active {
         display: block;
     }
 }
