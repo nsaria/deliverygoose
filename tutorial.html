@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+
+            /* 애니메이션 이름 */
+            animation-name: box-ani;
+
+            /* 애니메이션 무빙 시간 */
+            animation-duration: 1s;
+
+            /* 애니메이션 몇번 반복할 것인가? 기본숫자는 초단위, infinite는 무한대 */
+            animation-iteration-count: 3;
+
+            /* 애니메이션 무빙 방향 - normal : (기본값) 한방향으로 흐르는 것, reverse : 반대로 시작해서 한방향으로 흐름, alternate : 반복, alternate : 반복인데 반대부터 시작*/
+            animation-direction: alternate;
+
+            /* 애니메이션 딜레이를 갖고 시작 */
+            /* animation-delay: 2s; */
+            
+            /* 애니메이션 가속도 linear : 일정한 속도*/
+            /* 크롬 검사하기 창에서 style 보면 이 부분에 그래프 아이콘이 뜨는데 이걸로 조정해서 함수값을 수정할 수 있음 */
+            animation-timing-function: linear;
+
+            /* 애니메이션 반복횟수가 정해져 있을 때 마지막 위치를 유지하느냐 여부 결정 - forwards : 마지막 위치 유지*/
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes box-ani {
+            /* 어디서부터 */
+            from {
+                margin-top: 0;
+            }
+            /* 어디까지 */
+            to {
+                margin-top: 200px;
+            }
+
+            /* moving에 관하여 설명해주는 블로그 포스팅 */
+            /* https://poiemaweb.com/css3-transform */
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
