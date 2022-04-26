@@ -23,9 +23,10 @@ body {
     }
 
     .s1 {
-        background: url('../image/background/bg_01.jpg');
+        /* background: url('../image/background/bg_01.jpg');
         background-position: center center;
-        background-size: cover;
+        background-size: cover; */
+        background-color: rgb(124, 199, 124);
     }
 
     .s2 {
@@ -100,7 +101,7 @@ body {
         align-items: center;
         background-color: rgba(50, 50, 50, 0.4);
         padding: 0 5%;
-        z-index: 100;
+        z-index: 2;
         position: fixed;
         left: 0;
         right: 0;
@@ -282,3 +283,46 @@ body {
             }
         }
     /* // footer */
+
+
+
+    /* charactor */
+
+    div.charactor {
+        width: 700px;
+        height: 700px;
+        background: url('../image/simbol/deliveryGoose_simbol_yellowbike.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        /* background-color: salmon; */
+        animation-name: box_ani;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        position: fixed;
+        right: 140px;
+        top: 20%;
+        z-index: 4;
+    }
+
+    div.circle {
+        width: 650px;
+        height: 650px;
+        background-color: white;
+        border-radius: 100%;
+        position: fixed;
+        right: 211px;
+        top: 23%;
+        z-index: 3;
+    }
+
+    @keyframes box_ani {
+        from {
+            margin-top: 0;
+        }
+        to {
+            margin-top: 15px;
+        }
+    }
