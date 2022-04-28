@@ -25,9 +25,24 @@ body {
         background-color: #70E8A0;
     }
 
+    .s4 {
+        background-color: rgb(56, 56, 56);
+        padding: 3em 0;
+    }
+
+    .s5 {
+        /* background: url('../image/background/bg_03.jpg');
+        background-position: center center;
+        background-size: cover; */
+        /* background-color: #70E8A0; */
+        background-color: white;
+    }
+
 /* h Font Reset */
     h1 {font-size: 4em; margin: 0.4em 0; color: white;}
-    h2 {font-size: 2.5em; margin: 0.25em; color: white;}
+    h2 {font-size: 2.5em; margin: 0.25em 0; color: white;}
+    h3 {font-size: 1.5em; margin: 0.15em 0; color: white;}
+    .center {text-align: center;}
 
 /* Wrapper Test Background Color */
     /* .wrapper {background-color: salmon;}
@@ -55,9 +70,10 @@ body {
     }
 
     /* left Title */
-        .titleWrap {
+        .leftWrap .titleWrap {
             width: 100%;
-            margin: auto;
+            margin: auto 0;
+            display: block;
         }
 
 /* right */
@@ -71,7 +87,7 @@ body {
         align-items: end;
     }
 
-    /* section s1 > charactor */
+    /* section s1, s2 > charactor */
         .s1 div.circle {
             width: 600px;
             height: 600px;
@@ -110,3 +126,79 @@ body {
             }
         }
 
+    /* section s2 > charactor */
+        .s2 div.circle {
+            width: 600px;
+            height: 600px;
+            background-color: white;
+            border-radius: 100%;
+            position: absolute;
+            z-index: 3;
+            margin-bottom: 4em;
+            margin-left: 2.5em;
+        }
+
+        .s2 div.charactor {
+            width: 680px;
+            height: 680px;
+            background: url('../image/simbol/deliveryGoose_simbol_vest.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            animation-name: box_ani;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+            position: absolute;
+            right: 85px;
+            top: 23%;
+            z-index: 4;
+        }
+
+        @keyframes box_ani {
+            from {
+                margin-top: 0;
+            }
+            to {
+                margin-top: 15px;
+            }
+        }
+
+    /* section s5 > charactor - 서비스 안내*/
+
+        .s5 h1, .s5 h2, .s5 h3 {color: black}
+    
+        .s5 .leftWrap .titleWrap h1 {margin-bottom: 1em;}
+        .s5 .leftWrap .titleWrap h2:last-of-type {margin-bottom: 0.5em;}
+        .s5 .leftWrap .titleWrap h3:last-of-type {margin-bottom: 10em;}
+
+        .s5 .rightWrap .map {
+            background: url('../image/simbol/deliveryGoose_service_map.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            /* background-color: black; */
+            width: 800px;
+            height: 800px;
+        }
+
+        .s5 .rightWrap .bike {
+            background: url('../image/simbol/deliveryGoose_simbol_bike.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+            width: 450px;
+            height: 450px;
+
+            position: absolute;
+            right: 600px;
+            top: 50%;
+            
+            animation-name: box_ani;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+        }
