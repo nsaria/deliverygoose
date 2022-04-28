@@ -37,12 +37,24 @@ body {
         /* background-color: #70E8A0; */
         background-color: white;
     }
+    
+    .s6 {
+        /* background: url('../image/background/bg_03.jpg');
+        background-position: center center;
+        background-size: cover; */
+        /* background-color: #70E8A0; */
+        background-color: rgb(212, 212, 212);
+    }
 
 /* h Font Reset */
-    h1 {font-size: 4em; margin: 0.4em 0; color: white;}
-    h2 {font-size: 2.5em; margin: 0.25em 0; color: white;}
-    h3 {font-size: 1.5em; margin: 0.15em 0; color: white;}
+    h1 {font-size: 4em; margin: 0.4em 0;}
+    h2 {font-size: 2.5em; margin: 0.25em 0;}
+    h3 {font-size: 1.5em; margin: 0.15em 0;}
     .center {text-align: center;}
+    .fWhite {color: white;}
+    .fBlack {color: black;}
+    .fDarkGray {color: rgb(66, 66, 66)}
+    .fLightGray {color: rgb(117, 117, 117)}
 
 /* Wrapper Test Background Color */
     /* .wrapper {background-color: salmon;}
@@ -201,4 +213,27 @@ body {
             animation-iteration-count: infinite;
             animation-direction: alternate;
             animation-timing-function: ease-in-out;
+        }
+
+    /* section s6 : FAQ */
+        .s6 .wrapper {
+            background-color: #0d4925;
+            align-items: center;
+            width: 100%;
+        }    
+
+        .s6 .titleWrap {
+            background-color: #70E8A0;
+            display: inline-block;
+            width: 100%;
+            padding-top: 130px;
+            padding-bottom: 50px;
+        }
+
+        .s6 .conterntsWrap {
+            background-color: #36b96b;
+            display: inline-block;
+            width: 80%;
+            height: 1500px;
+            margin: 0 auto;
         }
