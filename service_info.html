@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fullpage</title>
+    <link rel="stylesheet" href="./css/fullpage_dg.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media_query.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link href="https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
+</head>
+<body>
+        
+    <header>
+        <nav class="navbar">
+            <div class="navbar__contents">
+                <div class="navbar__logo">
+                    <a href="http://deliverygoose.co.kr"><img src="./image/simbol/deliveryGoose_logo_white.png" alt="deliverygoose_logo"> </a>
+                </div>
+                <!-- <a href="" class="navbar__toggleBtn">-<i class="fas fa-bars"></i></a> -->
+                <button class="menu navbar__toggleBtn" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                    <svg viewBox="0 0 100 100">
+                      <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                      <path class="line line2" d="M 20,50 H 80" />
+                      <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                </button>
+            </div>
+            <div class="navbar__contents2">
+                <ul class="navbar__menu2">
+                    <li><a href="./service_info.html">서비스 안내</a></li>
+                    <li><a href="./service_area.html">서비스 지역</a></li>
+                    <li><a href="https://forms.gle/Yz5D2HWAU71h9X496">서비스 신청</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- fullpage -->
+    <div id="fullpage">
+        <!-- section : 1 page -->
+        <div class="section service_info_s1">
+            <div class="wrapper">
+                <div class="leftWrap">
+                    <div class="titleWrap">
+                        <h1 class="fBlack">무인편의점에 할애하는</h1>
+                        <h1 class="fBlack">시간이 0이 되도록</h1>
+                        <h3 class="fBlack">하루 24시간 중</h3>
+                        <h3 class="fBlack">회사 출근에서 퇴근까지 12시간, 취침 8시간,</h3>
+                        <h3 class="fBlack">그리고 무인편의점 관리시간 일 최대 3시간.</h3>
+                        <h2 class="fBlack">사장님, 대체 언제 쉬시나요?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section : 2 page -->
+        <div class="section service_info_s2">
+            <div class="wrapper">
+                <div class="titleWrap">
+                    <h1 class="fBlack center">무인편의점은 아프리카에서도</h1>
+                    <h1 class="fBlack center">관리할 수 있어야 한다</h1>
+                    <h3 class="fBlack center">출근을 해도, 여행을 가도 매장 걱정 없이 나설 수 있어요.</h3>
+                    <h3 class="fBlack center">매일 매장에 방문하지 않으셔도</h3>
+                    <h3 class="fBlack center">딜리버리구스가 발주/진열부터 매장정리까지 해드립니다.</h3>
+                </div>
+                <div class="iconWrap">
+                    <table>
+                        <tr>
+                            <td><img src="./image/icon/mintBG_1.png" alt=""></td>
+                            <td>
+                                <h2 class="fDarkGray">판매상품 선정</h2>
+                                <h3 class="fLightGray">전문가의 노하우와 자체 상권분석 데이터를 통하여 맞춤 상품을 큐레이싱합니다.</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="./image/icon/mintBG_2.png" alt=""></td>
+                            <td>
+                                <h2 class="fDarkGray">재고 걱정 NO</h2>
+                                <h3 class="fLightGray">쌓여진 재고 걱정은 이제 NO</h3>
+                                <h3 class="fLightGray">딜리버리구스에서 책임지고 전량 인수합니다.</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="./image/icon/mintBG_3.png" alt=""></td>
+                            <td>
+                                <h2 class="fDarkGray">상품 발주</h2>
+                                <h3 class="fLightGray">세계과자는 여기, 젤리는 저기... 국내과자는 어디?</h3>
+                                <h3 class="fLightGray">이제 더이상 헤매지 말아요!</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="./image/icon/mintBG_4.png" alt=""></td>
+                            <td>
+                                <h2 class="fDarkGray">상품 진열</h2>
+                                <h3 class="fLightGray">같은 물건이라도 진열위치에 따라 판매량이 다릅니다.</h3>
+                                <h3 class="fLightGray">잘 팔리는 위치, 물건 잘파는 구스가 놔드려요!</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="./image/icon/mintBG_5.png" alt=""></td>
+                            <td>
+                                <h2 class="fDarkGray">도난 및 파손</h2>
+                                <h3 class="fLightGray">신고 하기도 안하기도 애매했던 속으로만 앓았던고민, 딜리버리구스가 해결해드립니다.</h3>
+                                <h3 class="fLightGray">* 딜리버리구스 상품에 한함</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="./image/icon/mintBG_6.png" alt=""></td>
+                            <td>
+                                <h2 class="fDarkGray">유통기한 관리</h2>
+                                <h3 class="fLightGray">매일 체크하기 번거로운 유통기한</h3>
+                                <h3 class="fLightGray">딜리버리구스가 대신 해드립니다.</h3>
+                                <h3 class="fLightGray">* 딜리버리구스 상품에 한함</h3>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- section : 3 page -->
+        <div class="section service_info_s3">
+            <div class="wrapper">
+                <div class="leftWrap">
+                    <div class="titleWrap">
+                        <h1 class="fBlack">주변 상권 맞춘</h1>
+                        <h1 class="fBlack">매장전문가가 선택한 상품</h1>
+                        <h3 class="fBlack">축적된 판매데이터와 노하우를 바탕으로</h3>
+                        <h3 class="fBlack">상권에 맞는 상품을 큐레이션 해드립니다.</h3>
+                        <h3 class="fBlack">스낵/완구/펫/즉석식품/음료 등</h3>
+                        <h3 class="fBlack">다양한 구색으로 채워지는 사장님의 매장을 지켜봐주세요!</h3>
+                    </div>
+                </div>
+                <div class="rightWrap">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- section : 4 page -->
+        <div class="section service_info_s4">
+            <div class="wrapper">
+                <div class="leftWrap">
+                </div>
+                <div class="rightWrap">
+                    <div class="titleWrap">
+                        <h1 class="fBlack">비용과 재고 부담</h1>
+                        <h1 class="fBlack">딜리버리구스에서</h1>
+                        <h1 class="fBlack">덜어드릴게요</h1>
+                        <h3 class="fBlack">새로 오픈하려는데 초도비용 부담되시나요?</h3>
+                        <h3 class="fBlack">운영중이신데 쌓여있는 재고가 걱정이신가요?</h3>
+                        <h3 class="fBlack">모든 재고를 사장님이 아닌</h3>
+                        <h3 class="fBlack">딜리버리구스에서 책임집니다.</h3>
+                        <h3 class="fBlack">* 아이스크림 제외</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        
+
+        <!-- section : footer -->
+        <dic class="section fp-auto-height footer">
+            <!-- pc -->
+            <div class="footer__contents">
+                <p>주식회사엔에스아리아&nbsp;&nbsp;|&nbsp;&nbsp;대표이사 : 최진표&nbsp;&nbsp;|&nbsp;&nbsp;주소 : 서울특별시 동작구 여의대방로 112 도연관 16층</p>
+                <p>사업자등록번호 : 366-87-00916 (사업자번호조회)&nbsp;&nbsp;|&nbsp;&nbsp;통신판매업신고번호 : 제2017-서울동작-0861호</p>
+                <p>개인정보책임자 : 김현수&nbsp;&nbsp;|&nbsp;&nbsp;이메일 : help@nsaria.co.kr&nbsp;&nbsp;|&nbsp;&nbsp;팩스 : 02-820-8449</p>
+                <p>copyright 2021 nsaria.co.kr. All rights reserved.</p>
+            </div>
+            <!-- mobile -->
+            <div class="footer__contents2">
+                <p>주식회사엔에스아리아&nbsp;&nbsp;|&nbsp;&nbsp;대표이사 : 최진표</p>
+                <p>주소 : 서울특별시 동작구 여의대방로 112 도연관 16층</p>
+                <p>사업자등록번호 : 366-87-00916 (사업자번호조회)</p>
+                <p>통신판매업신고번호 : 제2017-서울동작-0861호</p>
+                <p>개인정보책임자 : 김현수</p>
+                <p>이메일 : help@nsaria.co.kr</p>
+                <p>팩스 : 02-820-8449</p>
+                <p>copyright 2021 nsaria.co.kr. All rights reserved.</p>
+            </div>
+        </dic>
+    </div>
+    <script src="./js/fullpage_dg.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            navigation: true,
+            anchors: ['section1', 'section2', 'section3', 'section4', 'footer'],
+            // navigationTooltips: ['section1', 'section2', 'section3', 'footer'],
+            showActiveTooltip: false,
+            scrollingSpeed: 1000,
+
+            // Slide Option
+            controlArrows: false,
+            slidesNavigation: true
+        })
+    </script>
+    <!-- navbar -->
+    <script>
+        const logo = document.querySelector('.navbar__logo');
+        const toggleBtn = document.querySelector('.navbar__toggleBtn');
+        const menu = document.querySelector('.navbar__menu2');
+
+        toggleBtn.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
