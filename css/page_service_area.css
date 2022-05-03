@@ -1,10 +1,11 @@
 /* section service_area_s1 - 서비스 지역*/
 
-.service_area_s1 {
+.service_area_s1,
+.service_area_s2 {
     /* background: url('../image/background/bg_02.jpg');
     background-position: center center;
     background-size: cover; */
-    /* background-color: #70E8A0; */
+    background-color: white;
 }
 
 
@@ -55,3 +56,14 @@
 }
 
 
+@media screen and (max-width: 1440px) and (min-width: 601px) {
+    .service_area_s1 h1 {font-size: 3.5em;}
+    .service_area_s1 h2 {font-size: 2em;}
+    .service_area_s1 h3 {font-size: 0.8em;}
+}
+
+@media screen and (max-width: 600px) {
+    .service_area_s1 h1 {font-size: 2.5em;}
+    .service_area_s1 h2 {font-size: 1.5em;}
+    .service_area_s1 h3 {font-size: 0.2em;}
+}
