@@ -17,6 +17,13 @@ body {
         background-size: cover; */
         background-color: #70E8A0;
     }
+    
+    .s3 {
+        /* background: url('../image/background/bg_03.jpg');
+        background-position: center center;
+        background-size: cover; */
+        background-color: #70E8A0;
+    }
 
     .service_info_s3 .rightWrap {
         background: url('../image/background/bg_06.png');
@@ -24,12 +31,6 @@ body {
         background-size: cover;
     }
 
-    .s3 {
-        /* background: url('../image/background/bg_03.jpg');
-        background-position: center center;
-        background-size: cover; */
-        background-color: #70E8A0;
-    }
 
     .s4 {
         background-color: rgb(56, 56, 56);
