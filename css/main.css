@@ -3,14 +3,6 @@ body {
 }
 
 /* Section */
-
-    .service_info_s3 .rightWrap {
-        background: url('../image/background/bg_06.png');
-        background-position: center center;
-        background-size: cover;
-    }
-
-
     .s4 {
         background-color: rgb(56, 56, 56);
         padding: 3em 0;
