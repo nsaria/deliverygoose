@@ -1,23 +1,13 @@
-/* Section */
+/* index_s1 */
 
-.s3 {
-    /* background: url('../image/background/bg_03.jpg');
-    background-position: center center;
-    background-size: cover; */
-    background-color: #70E8A0;
-}
-
-
-/* section s1, s2 > charactor */
-
-.s1 {
+.index_s1 {
     /* background: url('../image/background/bg_01.jpg');
     background-position: center center;
     background-size: cover; */
     background-color: #70E8A0;
 }
 
-.s1 div.circle {
+.index_s1 div.circle {
     width: 600px;
     height: 600px;
     background-color: white;
@@ -28,7 +18,7 @@
     margin-left: 2.5em;
 }
 
-.s1 div.charactor {
+.index_s1 div.charactor {
     width: 680px;
     height: 680px;
     background: url('../image/simbol/deliveryGoose_simbol_vest.png');
@@ -55,33 +45,53 @@
     }
 }
 
-/* section s2 */
 
-.s2 {
+
+/* index_s2 */
+
+.index_s2 {
+    /* background: url('../image/background/bg_03.jpg');
+    background-position: center center;
+    background-size: cover; */
+    background-color: #70E8A0;
+}
+.index_s2 h1 {
+    margin: 0.1em 0;
+}
+.index_s2 h1:last-of-type {
+    margin-bottom: 1.3em;
+}
+
+
+
+/* index_s3 */
+
+.index_s3 {
     /* background: url('../image/background/bg_02.jpg');
     background-position: center center;
     background-size: cover; */
     background-color: #70E8A0;
 }
 
-.s2 .wrapper {
+.index_s3 .wrapper {
     padding-top: 130px;
     text-align: center;
 }
-.s2 .wrapper .titleWrap {
+.index_s3 .wrapper .titleWrap {
     margin-bottom: 20px;
 }
-.s2 .wrapper .titleWrap h1 {
+.index_s3 .wrapper .titleWrap h1 {
     margin: 0.1em 0;
 }
-.s2 .wrapper .iconWrap {
+.index_s3 .wrapper .iconWrap {
     padding: 0 10em;
 }
-.s2 .wrapper .iconWrap .iconContents {
+.index_s3 .wrapper .iconWrap .iconContents {
     display: inline-block;
 }
-.s2 .wrapper .iconWrap .iconContents img {
+.index_s3 .wrapper .iconWrap .iconContents img {
     width: 12em;
     height: auto;
     margin: 1em 3em 0 3em;
 }
+

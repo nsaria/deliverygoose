@@ -32,15 +32,27 @@ body {
         background-color: rgb(212, 212, 212);
     }
 
-/* h Font Reset */
+/* Font effect */
+    /* h */
     h1 {font-size: 4em; margin: 0.4em 0;}
     h2 {font-size: 2.5em; margin: 0.25em 0;}
     h3 {font-size: 1.5em; margin: 0.15em 0;}
+    /* color */
     .center {text-align: center;}
     .fWhite {color: white;}
     .fBlack {color: black;}
     .fDarkGray {color: rgb(46, 46, 46)}
     .fLightGray {color: rgb(117, 117, 117)}
+    /* weight */
+    .fw_100 {font-weight: 100;}
+    .fw_200 {font-weight: 200;}
+    .fw_300 {font-weight: 300;}
+    .fw_400 {font-weight: 400;}
+    .fw_500 {font-weight: 500;}
+    .fw_600 {font-weight: 600;}
+    .fw_700 {font-weight: 700;}
+    .fw_800 {font-weight: 800;}
+    .fw_900 {font-weight: 900;}
 
 /* Wrapper Test Background Color */
     /* .wrapper {background-color: salmon;}
