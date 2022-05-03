@@ -1,0 +1,87 @@
+/* Section */
+
+.s3 {
+    /* background: url('../image/background/bg_03.jpg');
+    background-position: center center;
+    background-size: cover; */
+    background-color: #70E8A0;
+}
+
+
+/* section s1, s2 > charactor */
+
+.s1 {
+    /* background: url('../image/background/bg_01.jpg');
+    background-position: center center;
+    background-size: cover; */
+    background-color: #70E8A0;
+}
+
+.s1 div.circle {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 3;
+    margin-bottom: 4em;
+    margin-left: 2.5em;
+}
+
+.s1 div.charactor {
+    width: 680px;
+    height: 680px;
+    background: url('../image/simbol/deliveryGoose_simbol_vest.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: box_ani;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    right: 85px;
+    top: 23%;
+    z-index: 4;
+}
+
+@keyframes box_ani {
+    from {
+        margin-top: 0;
+    }
+    to {
+        margin-top: 15px;
+    }
+}
+
+/* section s2 */
+
+.s2 {
+    /* background: url('../image/background/bg_02.jpg');
+    background-position: center center;
+    background-size: cover; */
+    background-color: #70E8A0;
+}
+
+.s2 .wrapper {
+    padding-top: 130px;
+    text-align: center;
+}
+.s2 .wrapper .titleWrap {
+    margin-bottom: 20px;
+}
+.s2 .wrapper .titleWrap h1 {
+    margin: 0.1em 0;
+}
+.s2 .wrapper .iconWrap {
+    padding: 0 10em;
+}
+.s2 .wrapper .iconWrap .iconContents {
+    display: inline-block;
+}
+.s2 .wrapper .iconWrap .iconContents img {
+    width: 12em;
+    height: auto;
+    margin: 1em 3em 0 3em;
+}

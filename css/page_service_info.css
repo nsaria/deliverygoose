@@ -1,0 +1,90 @@
+/* section service_info_s1 - 서비스 소개 */
+.service_info_s1 {
+    background: url('../image/background/bg_04.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+/* section service_info_s2 - 서비스 소개 */
+
+.service_info_s2 .wrapper {
+    padding-top: 130px;
+    text-align: center;
+}
+.service_info_s2 .wrapper .titleWrap {
+    margin-bottom: 20px;
+}
+.service_info_s2 .wrapper .titleWrap h1 {
+    margin: 0.1em 0;
+}
+.service_info_s2 .wrapper .titleWrap h1:last-of-type {
+    margin: 0.1em 0 0.5em 0;
+}
+.service_info_s2 .wrapper .titleWrap h3:nth-of-type(2) {
+    margin-top: 1em;
+}
+.service_info_s2 .wrapper .iconWrap {
+    padding: 50px 20% 0 20%;
+}
+.service_info_s2 .wrapper .iconWrap table {
+    width: 100%;
+}
+.service_info_s2 .wrapper .iconWrap table,
+.service_info_s2 .wrapper .iconWrap table td {
+    border-collapse: collapse;
+}
+.service_info_s2 .wrapper .iconWrap table td {
+    border-bottom: 1px solid #70E8A0;
+}
+.service_info_s2 .wrapper .iconWrap table td:first-of-type {
+    text-align: center;
+}
+.service_info_s2 .wrapper .iconWrap table td:nth-of-type(2) {
+    text-align: left;
+    padding-left: 20px;
+}
+.service_info_s2 .wrapper .iconWrap table td img {
+    margin: 20px 0;
+}
+.service_info_s2 .wrapper .iconWrap table td h2 {
+    margin-bottom: 20px;
+}
+.service_info_s2 .wrapper .iconWrap table tr td:first-of-type {
+    width: 25%;
+}
+.service_info_s2 .wrapper .iconWrap table tr:nth-of-type(5) td:last-of-type h3:last-of-type,
+.service_info_s2 .wrapper .iconWrap table tr:nth-of-type(6) td:last-of-type h3:last-of-type {
+    font-size: 0.8em;
+}
+
+/* section service_info_s3 - 서비스 소개 */
+.service_info_s3 .wrapper .titleWrap h1 {
+    margin: 0.1em 0;
+}
+.service_info_s3 .wrapper .titleWrap h1:last-of-type {
+    margin: 0.1em 0 1em 0;
+}
+.service_info_s3 .wrapper .titleWrap h3:nth-of-type(2) {
+    margin-bottom: 1.2em;
+}
+
+/* section service_info_s4 - 서비스 소개 */
+.service_info_s4 {
+    background: url('../image/background/bg_05.png');
+    background-position: center center;
+    background-size: cover;
+}
+.service_info_s4 .wrapper .rightWrap {
+    align-items: center;
+}
+.service_info_s4 .wrapper .titleWrap h1 {
+    margin: 0.1em 0;
+}
+.service_info_s4 .wrapper .titleWrap h1:last-of-type {
+    margin: 0.1em 0 1em 0;
+}
+.service_info_s4 .wrapper .titleWrap h3:nth-of-type(2) {
+    margin-bottom: 1.2em;
+}.service_info_s4 .wrapper .titleWrap h3:last-of-type {
+    font-size: 0.9em;
+}

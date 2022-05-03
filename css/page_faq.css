@@ -1,0 +1,52 @@
+/* section faq_s1 : FAQ */    
+.faq_s1 {
+    background-color: #ccc;
+}
+.faq_s1 .wrapper {
+    padding-top: 130px;
+    text-align: center;
+}
+.faq_s1 .wrapper .titleWrap {
+    margin-bottom: 20px;
+}
+.faq_s1 .wrapper .titleWrap h1 {
+    margin: 0.1em 0;
+}
+.faq_s1 .wrapper .titleWrap h1:last-of-type {
+    margin: 0.1em 0 0.5em 0;
+}
+.faq_s1 .wrapper .titleWrap h3:nth-of-type(2) {
+    margin-top: 1em;
+}
+.faq_s1 .wrapper .iconWrap {
+    padding: 50px 20% 100px 20%;
+}
+.faq_s1 .wrapper .iconWrap table {
+    width: 100%;
+}
+.faq_s1 .wrapper .iconWrap table,
+.faq_s1 .wrapper .iconWrap table td {
+    border-collapse: collapse;
+}
+.faq_s1 .wrapper .iconWrap table td {
+    border-bottom: 1px solid #494949;
+    padding: 2em 0;
+}
+.faq_s1 .wrapper .iconWrap table td:first-of-type {
+    border-top: 1px solid #494949;
+    text-align: left;
+}
+.faq_s1 .wrapper .iconWrap table td:nth-of-type(2) {
+    text-align: left;
+    padding-left: 20px;
+}
+.faq_s1 .wrapper .iconWrap table td h3 {
+    line-height: 1.5em;
+}
+.faq_s1 .wrapper .iconWrap table td .fLightGray {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.faq_s1 .wrapper .iconWrap table tr td:first-of-type {
+    width: 25%;
+}
