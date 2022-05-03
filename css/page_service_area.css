@@ -1,37 +1,57 @@
 /* section service_area_s1 - 서비스 지역*/
 
-.service_area_s1 h1, .service_area_s1 h2, .service_area_s1 h3 {color: black}
-    
-.service_area_s1 .leftWrap .titleWrap h1 {margin-bottom: 1em;}
-.service_area_s1 .leftWrap .titleWrap h2:last-of-type {margin-bottom: 0.5em;}
-.service_area_s1 .leftWrap .titleWrap h3:last-of-type {margin-bottom: 10em;}
-
-.service_area_s1 .rightWrap .map {
-    background: url('../image/simbol/deliveryGoose_service_map.png');
+.service_area_s1 {
+    /* background: url('../image/background/bg_02.jpg');
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    /* background-color: black; */
-    width: 800px;
-    height: 800px;
+    background-size: cover; */
+    /* background-color: #70E8A0; */
 }
 
-.service_area_s1 .rightWrap .bike {
+
+.service_area_s1 .wrapper .leftWrap {
+    width: 100%;
+}
+
+.service_area_s1 h1,
+.service_area_s1 h2,
+.service_area_s1 h3 {
+    color: black;
+}    
+.service_area_s1 h1 {
+    margin-bottom: 1em;
+}
+.service_area_s1 h2:last-of-type {
+    margin-bottom: 0.5em;
+}
+.service_area_s1 h3 {
+    font-size: 1em;
+    font-weight: 400;
+    color: #ff3300;
+}
+
+
+/* section service_area_s2 - 서비스 지역*/
+.service_area_s2 .map {
+    background: url('../image/simbol/deliveryGoose_service_map.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 100%;
+    height: 100%;
+}
+
+.service_area_s2 .bike {
     background: url('../image/simbol/deliveryGoose_simbol_bike.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
 
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
 
     position: absolute;
-    right: 600px;
-    top: 50%;
-    
-    animation-name: box_ani;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
+    right: 850px;
+    bottom: 20px;
 }
+
+

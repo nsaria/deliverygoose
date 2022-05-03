@@ -9,10 +9,7 @@
     <link rel="stylesheet" href="./css/fullpage_dg.css">
     <!-- style : custom - page -->
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/page_index.css">
-    <link rel="stylesheet" href="./css/page_service_info.css">
     <link rel="stylesheet" href="./css/page_service_area.css">
-    <link rel="stylesheet" href="./css/page_faq.css">
     <!-- style : custom - header, footer -->
     <link rel="stylesheet" href="./css/header_footer.css">
     <!-- style : custom - media -->
@@ -50,26 +47,30 @@
 
     <!-- fullpage -->
     <div id="fullpage">
-        
-        <!-- section : 5 page -->
+
+        <!-- section : 1 page -->
         <div class="section service_area_s1">
             <div class="wrapper">
                 <div class="leftWrap">
                     <div class="titleWrap">
-                        <h1 class="fDarkGray">구스존 안내</h1>
-                        <h2 class="fDarkGray">딜리버리구스의 서비스는</h2>
-                        <h2 class="fDarkGray">서울·인천·경기 전 지역 가능합니다.</h2>
-                        <h3 class="fDarkGray">일부 지역의 경우 서비스 개시일이 조정될 수 있습니다.</h3>
-                        <h3 class="fDarkGray">하루 빨리 대한민국 전역에 서비스가 될 수 있도록 준비하겠습니다.</h3>
+                        <h1 class="fDarkGray center">구스존 안내</h1>
+                        <h2 class="fDarkGray center">딜리버리구스의 서비스는</h2>
+                        <h2 class="fDarkGray center">서울·인천·경기 전 지역 가능합니다.</h2>
+                        <h3 class="fDarkGray center">* 일부 지역의 경우 서비스 개시일이 조정될 수 있습니다.</h3>
+                        <h3 class="fDarkGray center">* 하루 빨리 대한민국 전역에 서비스가 될 수 있도록 준비하겠습니다.</h3>
                     </div>
-                    <div class="charWrap"></div>
-                </div>
-                <div class="rightWrap">
-                    <div class="map"></div>
-                    <div class="bike"></div>
                 </div>
             </div>
         </div>
+
+        <!-- section : 2 page -->
+        <div class="section service_area_s2">
+            <div class="wrapper">
+                <div class="map"></div>
+                <div class="bike"></div>
+            </div>
+        </div>
+        
         
         <!-- section : footer -->
         <dic class="section fp-auto-height footer">
@@ -98,14 +99,14 @@
         new fullpage('#fullpage', {
             autoScrolling: true,
             navigation: true,
-            anchors: ['service_area', 'footer'],
+            anchors: ['service_area_title', 'service_area_map', 'footer'],
             // navigationTooltips: ['section1', 'section2', 'section3', 'footer'],
             showActiveTooltip: false,
             scrollingSpeed: 1000,
 
             // Slide Option
             controlArrows: false,
-            slidesNavigation: true
+            slidesNavigation: false
         })
     </script>
     <!-- navbar -->
