@@ -7,6 +7,10 @@
     background-color: #70E8A0;
 }
 
+.index_s1 h1 {font-size: 3.6em;}
+.index_s1 h2 {font-size: 2.1em;}
+.index_s1 h2:last-of-type {margin-bottom: 1.2em;}
+
 .index_s1 .wrapper .leftWrap .titleWrap {
     z-index: 10;
 }
@@ -61,9 +65,19 @@
 }
 .index_s2 h1 {
     margin: 0.1em 0;
+    font-size: 3.6em;
 }
 .index_s2 h1:last-of-type {
     margin-bottom: 1.3em;
+}
+.index_s2 h2 {
+    font-size: 1.6em;
+}
+.index_s2 h2:last-of-type {
+    margin-bottom: 1.3em;
+}
+.index_s2 h3 {
+    font-size: 1em;
 }
 
 
