@@ -2,7 +2,6 @@
     h1 {font-size: 3.5em;}
     h2 {font-size: 2em;}
     h3 {font-size: 1.5em;}
-    .titleWrap {padding-left: 2em;}
     .rightWrap {align-items: center;}
     .s1 div.charactor, .s2 div.charactor {width: 500px; height: 500px; right: -100px;}
     .s1 div.circle, .s2 div.circle {width: 450px; height: 450px; right: 50px; margin: 0;}
@@ -12,5 +11,4 @@
     h1 {font-size: 2.5em;}
     h2 {font-size: 1.5em;}
     h3 {font-size: 0.8em;}
-    .titleWrap {padding-left: 2em;}
 }

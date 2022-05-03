@@ -91,6 +91,18 @@
     background-color: #70E8A0;
 }
 
+.index_s3 h1 {
+    font-size: 3.6em;
+}
+.index_s3 h2 {
+    font-size: 2.0em;
+    margin-bottom: 1em;;
+}
+.index_s3 h3 {
+    font-size: 1.3em;
+    /* font-weight: 400; */
+}
+
 .index_s3 .wrapper {
     padding-top: 130px;
     text-align: center;
@@ -102,13 +114,13 @@
     margin: 0.1em 0;
 }
 .index_s3 .wrapper .iconWrap {
-    padding: 0 10em;
+    padding: 3em 10em 0 10em;
 }
 .index_s3 .wrapper .iconWrap .iconContents {
     display: inline-block;
 }
 .index_s3 .wrapper .iconWrap .iconContents img {
-    width: 12em;
+    width: 9em;
     height: auto;
     margin: 1em 3em 0 3em;
 }
