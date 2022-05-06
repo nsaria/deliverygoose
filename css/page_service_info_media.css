@@ -1,0 +1,108 @@
+@media screen and (max-width: 1440px) and (min-width: 601px) {
+    .service_info_s1 .wrapper .leftWrap {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service_info_s1 h1 {font-size: 3.5em;}
+    .service_info_s1 h2 {font-size: 2em;}
+    .service_info_s1 h3 {font-size: 1.5em;}
+
+    /* section 2 */
+
+    .service_info_s2 .wrapper .leftWrap h1 {font-size: 3.5em;}
+    .service_info_s2 .wrapper .leftWrap h2 {font-size: 2em;}
+    .service_info_s2 .wrapper .leftWrap h3 {font-size: 1.5em;}
+
+    .service_info_s2 .wrapper .leftWrap {
+        width: 100%;
+        padding-left: 2em;
+        background: url('../image/background/bg_06.png');
+        background-position: center right;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+    .service_info_s2 .wrapper .rightWrap {
+        display: none;
+    }
+
+    /* section 3 */
+
+    .service_info_s3 .wrapper .leftWrap {
+        padding-right: 4em;
+    }
+    .service_info_s3 .wrapper .leftWrap h1 {font-size: 3.5em;}
+    .service_info_s3 .wrapper .leftWrap h2 {font-size: 2em;}
+    .service_info_s3 .wrapper .leftWrap h3 {font-size: 1.5em;}
+    
+    /* section 4 */
+
+    .service_info_s4 .wrapper .titleWrap h1 {font-size: 3.5em;}
+    .service_info_s4 .wrapper .titleWrap h2 {font-size: 2em;}
+    .service_info_s4 .wrapper .titleWrap h3 {font-size: 1.5em;}
+
+    .service_info_s4 .wrapper .iconWrap {padding: 50px 10% 0 10%;}
+}
+
+@media screen and (max-width: 600px) {
+    .service_info_s1 {
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+    .service_info_s1 .wrapper .leftWrap {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .service_info_s1 h1 {font-size: 2.3em;}
+    .service_info_s1 h2 {font-size: 1.8em;}
+    .service_info_s1 h3 {font-size: 1.3em;}
+
+    /* section 2 */
+    
+    .service_info_s2 .wrapper .leftWrap h1 {font-size: 2.3em;}
+    .service_info_s2 .wrapper .leftWrap h2 {font-size: 1.8em;}
+    .service_info_s2 .wrapper .leftWrap h3 {font-size: 1.3em;}
+    .service_info_s2 .wrapper .leftWrap h3:last-of-type {margin-bottom: 80%;}
+
+    .service_info_s2 .wrapper .leftWrap {
+        width: 100%;
+        padding: 0 2em;
+        background: url('../image/background/bg_06.png');
+        background-position: bottom center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .service_info_s2 .wrapper .rightWrap {
+        display: none;
+    }
+
+    /* section 3 */
+    .service_info_s3 .wrapper .leftWrap {
+        text-align: center;
+    }
+    .service_info_s3 .wrapper .leftWrap h1 {font-size: 2.3em;}
+    .service_info_s3 .wrapper .leftWrap h2 {font-size: 1.8em;}
+    .service_info_s3 .wrapper .leftWrap h3 {font-size: 1.3em;}
+
+    /* section 4 */
+
+    .service_info_s4 .wrapper .titleWrap {padding: 0 5%;}
+
+    .service_info_s4 .wrapper .titleWrap h1 {font-size: 2.3em;}
+    .service_info_s4 .wrapper .titleWrap h2 {font-size: 1.8em;}
+    .service_info_s4 .wrapper .titleWrap h3 {font-size: 1.3em;}
+
+    .service_info_s4 .wrapper .iconWrap {padding: 50px 10% 0 10%;}
+
+    .service_info_s4 .wrapper .iconWrap table tr td h1 {font-size: 2.3em;}
+    .service_info_s4 .wrapper .iconWrap table tr td h2 {font-size: 1.3em;}
+    .service_info_s4 .wrapper .iconWrap table tr td h3 {font-size: 0.9em; line-height: 1.3em;}
+
+    .service_info_s4 .wrapper .iconWrap table tr td img {
+        width: 100px;
+        height: 100px;
+        margin: 20px 0;
+    }
+}

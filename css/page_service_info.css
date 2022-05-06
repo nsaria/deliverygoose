@@ -16,9 +16,6 @@
 }
 .service_info_s1 h3:last-of-type {
     margin-bottom: 3em;
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: #ff3300;
 }
 
 
@@ -52,8 +49,9 @@
     background-position: center center;
     background-size: cover;
 }
-.service_info_s3 .wrapper .rightWrap {
-    align-items: center;
+.service_info_s3 .wrapper .leftWrap {
+    width: 100%;
+    text-align: right;
 }
 .service_info_s3 .wrapper .titleWrap h1 {
     margin: 0.1em 0;
@@ -88,7 +86,7 @@
     margin-top: 1em;
 }
 .service_info_s4 .wrapper .iconWrap {
-    padding: 50px 20% 0 20%;
+    padding: 50px 15% 0 15%;
 }
 .service_info_s4 .wrapper .iconWrap table {
     width: 100%;

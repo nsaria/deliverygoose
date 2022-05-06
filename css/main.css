@@ -19,6 +19,18 @@ body {
     .fBlack {color: black;}
     .fDarkGray {color: rgb(46, 46, 46)}
     .fLightGray {color: rgb(117, 117, 117)}
+    /* background */
+    .fbgWhite {background-color: white;}
+    .fbgBlack {background-color: black;}
+    .fbgDarkGray {background-color: rgb(46, 46, 46);}
+    .fbgLightGray {background-color: rgb(117, 117, 117);}
+    .fbgLightGreen {background-color: #70E8A0;}
+    /* edge */
+    .fegWhite {text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;}
+    .fegBlack {text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;}
+    .fegDarkGray {text-shadow: -1px 0 rgb(46, 46, 46), 0 1px rgb(46, 46, 46), 1px 0 rgb(46, 46, 46), 0 -1px rgb(46, 46, 46);}
+    .fegLightGray {text-shadow: -1px 0 rgb(117, 117, 117), 0 1px rgb(117, 117, 117), 1px 0 rgb(117, 117, 117), 0 -1px rgb(117, 117, 117);}
+    .fegLightGreen {text-shadow: -1px 0 #70E8A0, 0 1px #70E8A0, 1px 0 #70E8A0, 0 -1px #70E8A0;}
     /* weight */
     .fw_100 {font-weight: 100;}
     .fw_200 {font-weight: 200;}
@@ -60,15 +72,17 @@ body {
             width: 100%;
             margin: auto 0;
             display: block;
+            float: left;
         }
 
 /* right */
     .rightWrap {
         width: 46%;
         height: 100%;
+        float: right;
+        text-align: right;
         box-sizing: border-box;
         display: flex;
-        float: right;
         text-align: right;
         align-items: end;
     }
