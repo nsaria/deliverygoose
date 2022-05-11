@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fullpage</title>
+    <title>딜리버리구스 - 무인편의점 관리 플랫폼</title>
     <!-- style : fullpage library -->
     <link rel="stylesheet" href="./css/fullpage_dg.css">
     <!-- style : custom - page -->
@@ -17,6 +17,12 @@
     <link href="https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
 </head>
 <body>
+    <!-- http → https redirect src -->
+    <script type="text/javascript">
+        if (document.location.protocol == 'http:') {
+            document.location.href = document.location.href.replace('http:', 'https:');
+        }
+    </script>
         
     <header>
         <nav class="navbar">
@@ -65,7 +71,8 @@
                         <tr>
                             <td>
                                 <h3 class="fDarkGray">매장 내 상품 전체를 관리해주시는 건가요?</h3>
-                                <h3 class="fLightGray">기존 매장에서 판매하는 품목 중 아이스크림을 제외한 상품을 관리합니다.</h3>
+                                <!-- <h3 class="fLightGray">기존 매장에서 판매하는 품목 중 아이스크림을 제외한 상품을 관리합니다.</h3> -->
+                                <h3 class="fLightGray">기존 매장에서 판매하는 전상품을 관리해드리며, 아이스크림 품목은 옵션으로 선택가능합니다.</h3>
                             </td>
                         </tr>
                         <tr>
