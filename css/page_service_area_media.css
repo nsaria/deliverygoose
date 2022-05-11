@@ -1,0 +1,22 @@
+@media screen and (max-width: 1440px) and (min-width: 601px) {
+    .service_area_s1 h1 {font-size: 3.5em;}
+    .service_area_s1 h2 {font-size: 2em;}
+    .service_area_s1 h3 {font-size: 1.5em;}
+}
+
+@media screen and (max-width: 600px) {
+    .service_area_s1 h1 {font-size: 2.3em;}
+    .service_area_s1 h2 {font-size: 1.8em;}
+    .service_area_s1 h3 {font-size: 1.3em;}
+    .service_area_s1 .wrapper .leftWrap {
+        text-align: center;
+        padding-left: 0;
+        background-size: 100vw;
+    }
+    .service_area_s1 .bike {
+        width: 60vw;
+        height: 60vw;
+        right: 1vw;
+        bottom: 1vw;
+    }
+}

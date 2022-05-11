@@ -11,6 +11,11 @@
 
 .service_area_s1 .wrapper .leftWrap {
     width: 100%;
+    padding-left: 200px;
+    background: url('../image/simbol/deliveryGoose_service_map.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 750px;
 }
 
 .service_area_s1 h1,
@@ -24,34 +29,15 @@
 .service_area_s1 h2:last-of-type {
     margin-bottom: 0.5em;
 }
-.service_area_s1 h3 {
-    font-size: 1em;
-    font-weight: 400;
-    color: #ff3300;
-}
-
-
-/* section service_area_s2 - 서비스 지역*/
-.service_area_s2 .map {
-    background: url('../image/simbol/deliveryGoose_service_map.png');
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    width: 100%;
-    height: 100%;
-}
-
-.service_area_s2 .bike {
+.service_area_s1 .bike {
     background: url('../image/simbol/deliveryGoose_simbol_bike.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
-
-    width: 500px;
-    height: 500px;
-
+    width: 320px;
+    height: 320px;
     position: absolute;
-    right: 850px;
+    right: 35vw;
     bottom: 20px;
 }
 
