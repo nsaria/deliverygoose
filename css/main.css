@@ -16,12 +16,14 @@ body {
 
 /* Font effect */
     /* h */
-    h1 {font-size: 4em; margin: 0.4em 0;}
-    h2 {font-size: 2.5em; margin: 0.25em 0;}
-    h3 {font-size: 1.5em; margin: 0.15em 0;}
+    h1 {font-size: 3.2em; margin: 0.4em 0;}
+    h2 {font-size: 1.8em; margin: 0.25em 0;}
+    h3 {font-size: 1.2em; margin: 0.15em 0;}
 	h4 {font-size: 0.25em; margin: 0.05em 0;}
     /* color */
     .center {text-align: center;}
+    .right {text-align: right;}
+    .left {text-align: left;}
     .fWhite {color: white;}
     .fBlack {color: black;}
     .fDarkGray {color: #303030;}

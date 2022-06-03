@@ -1,3 +1,11 @@
+@font-face {
+    src: url(../../fonts/NotoSansKR-Regular.otf);
+    font-family: "NotoSansKR";
+}
+body {
+    font-family: 'NotoSansKR';
+}
+
 /* section service_info_s1 - 서비스 소개 */
 .service_info_s1 {
     background: url('../image/background/bg_04.png');
@@ -5,16 +13,18 @@
     background-size: cover;
 }
 .service_info_s1 h1 {
-    font-size: 3.5em;
-    margin: 0.2em 0;
+    margin: 0;
 }
 .service_info_s1 h1:last-of-type {
     margin-bottom: 1em;
 }
-.service_info_s1 h3:nth-of-type(2) {
+.service_info_s1 h2 {
+    font-size: 1.5em;
+}
+.service_info_s1 h2:nth-of-type(2) {
     margin-bottom: 0.5em;
 }
-.service_info_s1 h3:last-of-type {
+.service_info_s1 h2:last-of-type {
     margin-bottom: 3em;
 }
 
@@ -28,12 +38,14 @@
 }
 .service_info_s2 .wrapper .titleWrap h1 {
     margin: 0.1em 0;
-    font-size: 3.7em;
+}
+.service_info_s2 .wrapper .titleWrap h2 {
+    font-size: 1.5em;
 }
 .service_info_s2 .wrapper .titleWrap h1:last-of-type {
     margin: 0.1em 0 1em 0;
 }
-.service_info_s2 .wrapper .titleWrap h3:nth-of-type(2) {
+.service_info_s2 .wrapper .titleWrap h2:nth-of-type(2) {
     margin-bottom: 1.2em;
 }
 .service_info_s2 .rightWrap {
@@ -59,7 +71,10 @@
 .service_info_s3 .wrapper .titleWrap h1:last-of-type {
     margin: 0.1em 0 1em 0;
 }
-.service_info_s3 .wrapper .titleWrap h3:nth-of-type(2) {
+.service_info_s3 .wrapper .titleWrap h2 {
+    font-size: 1.5em;
+}
+.service_info_s3 .wrapper .titleWrap h2:nth-of-type(2) {
     margin-bottom: 1.2em;
 }
 
@@ -87,30 +102,121 @@
 .service_info_s4 .wrapper .iconWrap table {
     width: 100%;
 }
+
+.service_info_s4 .wrapper .iconWrap table tr td:nth-of-type(1),
+.service_info_s4 .wrapper .iconWrap table tr td:nth-of-type(3) {
+    width: 15%;
+}
+.service_info_s4 .wrapper .iconWrap table tr td:nth-of-type(2),
+.service_info_s4 .wrapper .iconWrap table tr td:nth-of-type(4) {
+    width: 30%;
+}
 .service_info_s4 .wrapper .iconWrap table,
 .service_info_s4 .wrapper .iconWrap table td {
     border-collapse: collapse;
 }
-.service_info_s4 .wrapper .iconWrap table td:first-of-type {
-    text-align: center;
-    border-top: 1px solid #70E8A0;
+.service_info_s4 .wrapper .iconWrap table tr:first-of-type {
+    border-top: 1px solid#70E8A0;
 }
-.service_info_s4 .wrapper .iconWrap table td:nth-of-type(2) {
+.service_info_s4 .wrapper .iconWrap table tr {
+    border-bottom: 1px solid #70E8A0;
+}
+.service_info_s4 .wrapper .iconWrap table td:nth-of-type(1),
+.service_info_s4 .wrapper .iconWrap table td:nth-of-type(3) {
+    text-align: center;
+}
+.service_info_s4 .wrapper .iconWrap table td:nth-of-type(2),
+.service_info_s4 .wrapper .iconWrap table td:nth-of-type(4) {
     text-align: left;
-    padding-left: 20px;
-    border-top: 1px solid #70E8A0;
+    padding-right: 10px;
 }
 .service_info_s4 .wrapper .iconWrap table td img {
+    width: 8em;
     margin: 20px 0;
 }
 .service_info_s4 .wrapper .iconWrap table td h2 {
     margin-bottom: 20px;
-    font-size: 2.0em;
+    font-size: 1.6em;
 }
 .service_info_s4 .wrapper .iconWrap table td h3 {
-    font-size: 1.3em;
+    font-size: 1.0em;
     font-weight: 400;
 }
-.service_info_s4 .wrapper .iconWrap table tr td:first-of-type {
-    width: 25%;
+
+/* section 5 */
+.service_info_s5 .leftWrap .titleWrap h1 {
+    line-height: 1em;
+}
+.service_info_s5 .leftWrap .titleWrap h1:last-of-type {
+    margin-bottom: 7em;
+}
+.service_info_s5 .rightWrapCus {
+    width: 45%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    float: left;
+    /* 반응형: width: 100% height: 30% */
+}
+.service_info_s5 .rightWrapCus .titleWrap {
+    width: 100%;
+    margin: auto 0;
+    display: block;
+    float: left;
+}
+.service_info_s5 .wrapper .rightWrapCus table {
+    width: 100%;
+    margin-top: 3em;;
+}
+.service_info_s5 .wrapper .rightWrapCus table,
+.service_info_s5 .wrapper .rightWrapCus table td {
+    border-collapse: collapse;
+}
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(1) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(3) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(5) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(7) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(9) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(11) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(13) td:nth-of-type(1) {
+    width: 20%;
+    text-align: center;
+    background: #70E8A0;
+    color: #303030;
+}
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(1) td:nth-of-type(2) {
+    width: 80%;
+    text-align: left;
+}
+.service_info_s5 .wrapper .rightWrapCus table tr td:last-of-type {
+    padding-left: 20px;
+}
+.service_info_s5 .wrapper .rightWrapCus table tr td:last-of-type h2 {
+    color: #303030
+}
+.service_info_s5 .wrapper .rightWrapCus table tr td:last-of-type h3 {
+    color: #535353;
+}
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(2) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(4) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(6) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(8) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(10) td:nth-of-type(1),
+.service_info_s5 .wrapper .rightWrapCus table tr:nth-of-type(12) td:nth-of-type(1) {
+    border-right: 2px solid #535353;
+    height: 1em;
+}
+
+
+/* section 6 */
+.service_info_s6 {
+    background: #70E8A0;
+    padding: 3em;
+}
+.service_info_s6 .wrapper .titleWrap {
+    text-align: center;
+}
+.service_info_s6 .wrapper .titleWrap h1 {
+    font-size: 2.8em;
+    line-height: 1em;
 }
