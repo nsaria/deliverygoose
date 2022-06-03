@@ -1,5 +1,11 @@
+@font-face {
+    src: url(../../fonts/NotoSansKR-Regular.otf);
+    font-family: "NotoSansKR";
+}
+
+
 body {
-    font-family: 'NexonLv1Gothic';
+    font-family: 'NotoSansKR';
 }
 
 /* Section */
@@ -13,12 +19,15 @@ body {
     h1 {font-size: 4em; margin: 0.4em 0;}
     h2 {font-size: 2.5em; margin: 0.25em 0;}
     h3 {font-size: 1.5em; margin: 0.15em 0;}
+	h4 {font-size: 0.25em; margin: 0.05em 0;}
     /* color */
     .center {text-align: center;}
     .fWhite {color: white;}
     .fBlack {color: black;}
-    .fDarkGray {color: rgb(46, 46, 46)}
-    .fLightGray {color: rgb(117, 117, 117)}
+    .fDarkGray {color: #303030;}
+    .fLightGray {color: #535353;}
+    .fcustom1 {color: #70e8a0;}
+	.fcustom2 {color: #56cb85;}
     /* background */
     .fbgWhite {background-color: white;}
     .fbgBlack {background-color: black;}

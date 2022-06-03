@@ -1,5 +1,11 @@
+@font-face {
+    src: url(../../fonts/NotoSansKR-Regular.otf);
+    font-family: "NotoSansKR";
+}
+
+
 body {
-    font-family: 'NexonLv1Gothic';
+    font-family: 'NotoSansKR';
 }
 
 div#fullpage {

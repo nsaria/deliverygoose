@@ -20,9 +20,9 @@
 
 .service_area_s1 h1,
 .service_area_s1 h2,
-.service_area_s1 h3 {
+/*.service_area_s1 h3 {
     color: black;
-}    
+} */   
 .service_area_s1 h1 {
     margin-bottom: 1em;
 }
